@@ -10,6 +10,11 @@ If we didn't code securely, software could be exploited. We could be risking the
 ### What part of the vulnerability assessment was challenging or helpful to you?
 The challenging part was finding false positives, as it took a lot of time and work to figure out whether something actually affected the codebase or not.
 
+### How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
+Layers of security were increased by making sure that minimal dependencies were used. Moreover, code was written in a careful way where private data was encapsulated from the user.
+
+In the future, I will definitely use the government NVD CVE database we used in class to assess vulnerabilities and find mitigation techniques.
+
 ### How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
 I ran Dependency Check multiple times and ensured that there were no new vulnerabilities once the initial ones were audited. The code was refactored to ensure that it was updated and secure.
 
